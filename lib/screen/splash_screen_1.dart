@@ -6,7 +6,9 @@ class SplashScreen1 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Column(
+      body: Center(
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
         //Todo:
         //karena akan membuat multiple widget
         //widget "children"
@@ -20,9 +22,9 @@ class SplashScreen1 extends StatelessWidget {
               color: Colors.amber,
             ),
           )
-
         ],
       ),
+      )
     );
   }
 }
