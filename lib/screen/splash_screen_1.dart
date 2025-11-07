@@ -39,9 +39,23 @@ class SplashScreen1 extends StatelessWidget {
           Text(
             "Hallo, Forgot to bring your wallet when you are shopping!",
             style: TextStyle(
-              fontSize: 18,
+              fontSize: 15.0,
               color: Colors.pinkAccent[700],
             ),
+          ),
+          SizedBox(height: 10),
+          Row(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              Container(
+                width: 12,
+                height: 12,
+                decoration: BoxDecoration(
+                  shape: BoxShape.circle,
+                  color: Colors.amber,
+                ),
+              ),
+            ],
           )
         ],
       ),
