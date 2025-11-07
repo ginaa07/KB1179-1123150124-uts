@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:kb1179_1123150124_uts/screen/splash_screen_2.dart';
 
 
 class SplashScreen1 extends StatelessWidget {
@@ -24,7 +23,7 @@ class SplashScreen1 extends StatelessWidget {
               shape: BoxShape.circle,
               color: Colors.amber,
               image: DecorationImage(
-                image:AssetImage("assets/images/image1.png"), //penambahan image
+                image:AssetImage("assets/images/image1.png"),
                 fit: BoxFit.cover,
             )
             ),
@@ -96,7 +95,7 @@ class SplashScreen1 extends StatelessWidget {
                 ),
               ),
               child: Text('Continue',
-              style: TextStyle(fontSize: 19.0, color: Colors.white),
+              style: TextStyle(fontSize: 18.0, color: Colors.white),
               ),
               ),
           ),
