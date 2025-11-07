@@ -13,7 +13,7 @@ class Login extends StatelessWidget {
       body: SingleChildScrollView(
         child: Column(
           children: [
-            Icon(Icons.qr_code_2_outlined, size: 78, color: Colors.blue),
+            Icon(Icons.qr_code_2_outlined, size: 79.0, color: Colors.blue),
             SizedBox(height: 20),
             Text(
               "Welcome",
