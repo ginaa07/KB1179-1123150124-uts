@@ -8,6 +8,7 @@ class SplashScreen1 extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Center(
+        child:SingleChildScrollView(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
         //Todo:
@@ -77,6 +78,7 @@ class SplashScreen1 extends StatelessWidget {
           ),
           SizedBox(height: 30),
           Container(
+            margin: EdgeInsets.only(left: 40, right: 40),
             child: ElevatedButton(
               onPressed: () {
                 Navigator.push(
@@ -99,6 +101,7 @@ class SplashScreen1 extends StatelessWidget {
         ],
       ),
       )
+      ),
     );
   }
 }
