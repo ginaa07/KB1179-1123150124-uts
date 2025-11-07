@@ -9,17 +9,19 @@ class SplashScreen1 extends StatelessWidget {
       body: Column(
         //Todo:
         //karena akan membuat multiple widget
-      children: [
-        SizedBox(height: 50),
-        Container(
-          width: 250,
-          height: 250,
-          decoration: BoxDecoration(
-            shape: BoxShape.circle,
-            color: Colors.amber,
-          ),
-        )
-      ],
+        //widget "children"
+        children: [
+          SizedBox(height: 50),
+          Container(
+            width: 250,
+            height: 250,
+            decoration: BoxDecoration(
+              shape: BoxShape.circle,
+              color: Colors.amber,
+            ),
+          )
+
+        ],
       ),
     );
   }
