@@ -31,7 +31,7 @@ class SplashScreen3 extends StatelessWidget {
           ),
           SizedBox(height: 20),
           Text(
-            "Welcome",
+            "Welcome, Lovee",
             style: TextStyle(
               fontSize: 40,
               fontWeight: FontWeight.bold,
@@ -39,7 +39,7 @@ class SplashScreen3 extends StatelessWidget {
           ),
           SizedBox(height: 10),
           Text(
-            "Hallo, Forgot to bring your wallet when you are shopping!",
+            "Hallo, Nona Manis",
             style: TextStyle(
               fontSize: 15.0,
               color: Colors.pinkAccent[700],
