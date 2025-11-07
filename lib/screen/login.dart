@@ -10,10 +10,11 @@ class Login extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: SingleChildScrollView(
+      body: Center(
         child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Icon(Icons.qr_code_2_outlined, size: 79.0, color: Colors.blue),
+            Icon(Icons.qr_code_2_outlined, size: 80.0, color: Colors.blue),
             SizedBox(height: 20),
             Text(
               "Welcome",
