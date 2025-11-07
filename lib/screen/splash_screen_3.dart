@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:kb1179_1123150124_uts/screen/splash_screen_3.dart';
+import 'package:kb1179_1123150124_uts/screen/splash_screen_2.dart';
 
 
-class SplashScreen2 extends StatelessWidget {
-  const SplashScreen2({super.key});
+class SplashScreen3 extends StatelessWidget {
+  const SplashScreen3({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -24,24 +24,24 @@ class SplashScreen2 extends StatelessWidget {
               shape: BoxShape.circle,
               color: Colors.amber,
               image: DecorationImage(
-                image:AssetImage("assets/images/image2.jpg"),
+                image:AssetImage("assets/images/image1.png"), //penambahan image
                 fit: BoxFit.cover,
             )
             ),
           ),
           SizedBox(height: 20),
           Text(
-            "What do u think about me?",
+            "Welcome",
             style: TextStyle(
-              fontSize: 30,
+              fontSize: 40,
               fontWeight: FontWeight.bold,
             ),
           ),
           SizedBox(height: 10),
           Text(
-            "Hallo, Dubaii",
+            "Hallo, Forgot to bring your wallet when you are shopping!",
             style: TextStyle(
-              fontSize: 18.0,
+              fontSize: 15.0,
               color: Colors.pinkAccent[700],
             ),
           ),
@@ -85,7 +85,7 @@ class SplashScreen2 extends StatelessWidget {
               onPressed: () {
                 Navigator.push(
                   context, 
-                  MaterialPageRoute(builder: (context) => SplashScreen3()),
+                  MaterialPageRoute(builder: (context) => SplashScreen2()),
                   );
               }, 
               style: ElevatedButton.styleFrom(
@@ -96,7 +96,7 @@ class SplashScreen2 extends StatelessWidget {
                 ),
               ),
               child: Text('Continue',
-              style: TextStyle(fontSize: 18.0, color: Colors.white),
+              style: TextStyle(fontSize: 19.0, color: Colors.white),
               ),
               ),
           ),
