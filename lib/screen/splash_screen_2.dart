@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:kb1179_1123150124_uts/screen/splash_screen_1.dart';
 import 'package:kb1179_1123150124_uts/screen/splash_screen_2.dart';
 
 
@@ -33,7 +34,7 @@ class SplashScreen2 extends StatelessWidget {
           Text(
             "What do u think about me?",
             style: TextStyle(
-              fontSize: 40,
+              fontSize: 30,
               fontWeight: FontWeight.bold,
             ),
           ),
@@ -41,7 +42,7 @@ class SplashScreen2 extends StatelessWidget {
           Text(
             "Hallo, Dubaii",
             style: TextStyle(
-              fontSize: 15.0,
+              fontSize: 18.0,
               color: Colors.pinkAccent[700],
             ),
           ),
