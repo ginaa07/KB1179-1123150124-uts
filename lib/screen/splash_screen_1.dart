@@ -43,7 +43,7 @@ class SplashScreen1 extends StatelessWidget {
               color: Colors.pinkAccent[700],
             ),
           ),
-          SizedBox(height: 10),
+          SizedBox(height: 20),
           Row(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
@@ -53,6 +53,24 @@ class SplashScreen1 extends StatelessWidget {
                 decoration: BoxDecoration(
                   shape: BoxShape.circle,
                   color: Colors.amber,
+                ),
+              ),
+              SizedBox(width: 10),
+              Container(
+                width: 12,
+                height: 12,
+                decoration: BoxDecoration(
+                  shape: BoxShape.circle,
+                  color: Colors.pinkAccent,
+                ),
+              ),
+              SizedBox(width: 10),
+              Container(
+                width: 12,
+                height: 12,
+                decoration: BoxDecoration(
+                shape: BoxShape.circle,
+                color: Colors.blue, 
                 ),
               ),
             ],
