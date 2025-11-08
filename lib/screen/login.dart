@@ -49,6 +49,7 @@ class Login extends StatelessWidget {
             ),
             SizedBox(height: 20),
             Container(
+              margin: EdgeInsets.only(left: 20, right: 20),
               child: TextField(
                 obscureText: true,
                 decoration: InputDecoration(
