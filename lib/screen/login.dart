@@ -85,6 +85,7 @@ class Login extends StatelessWidget {
             ),
             SizedBox(height: 10),
             Container(
+              margin: EdgeInsets.only(left: 20, right: 20),
               child: SizedBox(
                 width: double.infinity,
                 height: 40,
@@ -125,6 +126,7 @@ class Login extends StatelessWidget {
             //Sosial Login Button
             SizedBox( height: 20),
           Container(
+            margin: EdgeInsets.only(left: 20, right: 20),
             width: 500,
             height: 40, 
             child: OutlinedButton.icon(
