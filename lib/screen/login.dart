@@ -151,7 +151,7 @@ class Login extends StatelessWidget {
                 tapTargetSize: MaterialTapTargetSize.shrinkWrap,
               ),
               child: Text(
-                "Daftar Sekarang!",
+                "Daftar Sekarang",
                 style: TextStyle(
                   fontSize: 14.0,
                   color: Colors.blue,
@@ -159,10 +159,11 @@ class Login extends StatelessWidget {
                 ),
               ),
             ),
-
+            ],
+          )
           ],
         ),
-      ),
+      )
     );
   }
 }
