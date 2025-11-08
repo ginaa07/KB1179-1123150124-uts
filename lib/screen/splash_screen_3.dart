@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:kb1179_1123150124_uts/screen/login.dart';
-import 'package:kb1179_1123150124_uts/screen/splash_screen_2.dart';
 
 
 class SplashScreen3 extends StatelessWidget {
