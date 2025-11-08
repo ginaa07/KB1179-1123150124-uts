@@ -55,6 +55,8 @@ class Login extends StatelessWidget {
                 decoration: InputDecoration(
                   labelText: "Password",
                   hintText: "Masukkan Password Anda",
+                  prefixIcon: Icon(Icons.lock_clock_rounded),
+                  suffixIcon: Icon(Icons.visibility_rounded),
                   
                 ),
               ),
