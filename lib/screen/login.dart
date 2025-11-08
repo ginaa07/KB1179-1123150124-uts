@@ -1,3 +1,5 @@
+import 'dart:nativewrappers/_internal/vm/lib/ffi_patch.dart';
+
 import 'package:flutter/material.dart';
 
 void main() {
@@ -133,6 +135,29 @@ class Login extends StatelessWidget {
                 side: BorderSide(color: Colors.grey[600]!),
               ),
                 ),
+            ),
+            SizedBox(height: 10),
+            Row(
+              children: [
+                Text("Belum Punya Akun?"),
+                SizedBox(width: 4),
+                TextButton(
+                  onPressed:  () {}, 
+                  style: TextButton.styleFrom(
+                    padding: EdgeInsets.zero,
+                    minimumSize: Size(0, 0),
+                    tapTargetSize: MaterialTapTargetSize.shrinkWrap,
+                  ),
+                  child: Text(
+                    "Daftar",
+                    style: TextStyle(
+                      fontSize: 14.0,
+                      color: Colors.blue,
+                      fontWeight: FontWeight.bold,
+                    ),
+                  ),
+                  )
+              ],
             )
 
           ],
