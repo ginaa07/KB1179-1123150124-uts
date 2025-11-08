@@ -24,7 +24,7 @@ class Login extends StatelessWidget {
             ),
             SizedBox(height: 4),
             Text(
-              "Silahkan Regina, login untuk melanjutkan",
+              "Silahkan Regina Safarinaaa, login untuk melanjutkan",
               style: TextStyle(fontSize: 14.0, color: Colors.green),
             ),
           ],
