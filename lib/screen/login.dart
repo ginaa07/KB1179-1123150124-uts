@@ -67,6 +67,22 @@ class Login extends StatelessWidget {
                   ),
                 ),
               ),
+            ),
+            SizedBox(height: 5),
+            Align(
+              alignment: Alignment.centerRight,
+              child: TextButton(
+                onPressed:  () {},
+                child: Text(
+                  "Lupa Password",
+                  style: TextStyle(
+                    fontSize: 14.0,
+                    color: Colors.blue,
+                    fontWeight: FontWeight.bold
+                    ),
+                  ),
+                ),
+              ) ,
             )
 
           ],
