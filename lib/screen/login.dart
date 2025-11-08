@@ -27,6 +27,25 @@ class Login extends StatelessWidget {
               "Silahkan Regina Safarinaaa, login untuk melanjutkan",
               style: TextStyle(fontSize: 14.0, color: Colors.green),
             ),
+            SizedBox(height: 20),
+            Container(
+              child: TextField(
+                keyboardType: TextInputType.emailAddress,
+                decoration: InputDecoration(
+                  labelText: "Email",
+                  hintText: "Masukkan Email Anda",
+                  prefixIcon: Icon(Icons.email_outlined),
+                  enabledBorder: OutlineInputBorder(
+                    borderRadius: BorderRadius.circular(10),
+                    borderSide: BorderSide(color: Colors.blue, width: 2),
+                  ),
+                  focusedBorder: OutlineInputBorder(
+                    borderRadius: BorderRadius.circular(10),
+                    borderSide: BorderSide(color: Colors.blue, width: 2),
+                  ),
+                ),
+              ),
+            )
           ],
         ),
       ),
