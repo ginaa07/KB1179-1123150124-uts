@@ -137,6 +137,29 @@ class Login extends StatelessWidget {
             ),
           ),
 
+          SizedBox(height: 10),
+          Row(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+            Text("Belum punya akun?"),
+            SizedBox(width: 4),
+            TextButton(
+              onPressed: () {},
+              style: TextButton.styleFrom(
+                padding: EdgeInsets.zero, 
+                minimumSize: Size(0, 0),
+                tapTargetSize: MaterialTapTargetSize.shrinkWrap,
+              ),
+              child: Text(
+                "Daftar",
+                style: TextStyle(
+                  fontSize: 14.0,
+                  color: Colors.blue,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+            ),
+
           ],
         ),
       ),
