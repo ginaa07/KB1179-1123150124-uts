@@ -29,6 +29,7 @@ class Login extends StatelessWidget {
             ),
             SizedBox(height: 20),
             Container(
+              margin: EdgeInsets.only(left: 20, right: 20),
               child: TextField(
                 keyboardType: TextInputType.emailAddress,
                 decoration: InputDecoration(
