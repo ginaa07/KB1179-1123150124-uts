@@ -17,7 +17,7 @@ class Login extends StatelessWidget {
             Icon(Icons.qr_code_2_outlined, size: 80.0, color: Colors.blue),
             SizedBox(height: 20),
             Text(
-              "Welcome",
+              "Welcome, Regina safarina",
               style: TextStyle(
                 fontSize: 30.0, color: Colors.black,
               ),
@@ -123,7 +123,7 @@ class Login extends StatelessWidget {
                       ),
                       ),     
                 ],
-              )
+              ),
           ],
         ),
       ),
