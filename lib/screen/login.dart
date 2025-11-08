@@ -67,7 +67,7 @@ class Login extends StatelessWidget {
               child: TextButton(
                 onPressed: () {}, 
                 child: Text(
-                  "Lupa Password",
+                  "Lupa Password?",
                   style: TextStyle(
                     fontSize: 14.0,
                     color: Colors.blue,
@@ -75,7 +75,32 @@ class Login extends StatelessWidget {
                   ),
                 ),
                 ),
+            ),
+            SizedBox(height: 10),
+            Container(
+              child: SizedBox(
+                width: double.infinity,
+                height: 40,
+                child: ElevatedButton(
+                  onPressed: () {},
+                  style: ElevatedButton.styleFrom(backgroundColor: Colors.blue[700],
+                  foregroundColor: Colors.white,
+                  padding: EdgeInsets.symmetric(vertical: 16),
+                  shape: RoundedRectangleBorder(borderRadius: BorderRadiusGeometry.circular(12)
+                  ),
+                  elevation: 2,
+                  ),
+                  child: const Text(
+                    "Login",
+                    style: TextStyle(
+                      fontSize: 18.0,
+                      fontWeight: FontWeight.bold
+                    ),
+                  ),
+                   ),
+              ),
             )
+
           ],
         ),
       ),
