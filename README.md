@@ -26,7 +26,8 @@ Nama: Regina Safarina
 
 Nim: 1123150124
 
-cara menjalankan project/aplikasi: flutter run
+cara menjalankan project/aplikasi: 
+flutter run
 
 pilih cek device Chrome (web)
 
