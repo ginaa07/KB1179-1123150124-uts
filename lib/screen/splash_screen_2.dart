@@ -46,7 +46,7 @@ class SplashScreen2 extends StatelessWidget {
             ),
           ),
           SizedBox(height: 20),
-          Row(
+          Row( //untuk menyusun widget lain
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               Container(

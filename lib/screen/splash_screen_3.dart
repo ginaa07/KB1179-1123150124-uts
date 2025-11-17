@@ -46,7 +46,7 @@ class SplashScreen3 extends StatelessWidget {
             ),
           ),
           SizedBox(height: 20),
-          Row(
+          Row( //untuk menyusun widget
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               Container(
@@ -72,7 +72,7 @@ class SplashScreen3 extends StatelessWidget {
                 height: 12,
                 decoration: BoxDecoration(
                 shape: BoxShape.circle,
-                color: Colors.blue, 
+                color: Colors.amber, 
                 ),
               ),
             ],
