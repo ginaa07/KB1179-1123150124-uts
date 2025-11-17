@@ -16,8 +16,11 @@ For help getting started with Flutter development, view the
 samples, guidance on mobile development, and a full API reference.
 
 Note: Screenshoothome(screenshoothome/ScreenshotSplashScreen1.png)
+
 Nama: Regina Safarina
+
 Nim: 1123150124
 
 cara menjalankan project (flutter run)
+
 pilih cek device Chrome (web)
